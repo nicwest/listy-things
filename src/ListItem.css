@@ -1,0 +1,48 @@
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.itemContainer .number {
+  font-size: 3rem;
+  line-height: 5rem;
+  width: 5rem;
+  margin-right: 1.5rem;
+  text-align: right;
+}
+
+.itemContainer .image {
+  border: 2px solid #EEE;
+  margin: -2px 1.5rem 0 0;
+  height: 5rem;
+}
+
+.itemContainer .image img {
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+.itemContainer .image div {
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  line-height: 5rem;
+  text-align: center
+}
+
+.itemContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemContainer .textContainer .title {
+  font-size: 2rem;
+  line-height: 3rem;
+  border-bottom: 2px solid #EEE;
+}
+.itemContainer .textContainer .subtitle {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}

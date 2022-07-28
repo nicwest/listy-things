@@ -1,0 +1,8 @@
+.button {
+  border: 2px solid #EEE;
+  background: inherit;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 4px 2px;
+}
+
